@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html{
+    color-scheme: light dark;
+}
+body{
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    height: 100svh;
+    max-height: 100svh;
+}
+img,
+svg,
+video{
+    max-width: 100%;
+    display: block;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
