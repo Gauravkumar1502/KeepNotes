@@ -36,11 +36,11 @@ export class NotesComponent {
     // subscribe to filter service
     this.filterService.currentFilterValue.subscribe(filterValue => {
       this.filterValue = filterValue;
-    this.filteredNotes = this.notes.filter(n => {
-      return n.title.includes(this.filterValue) || 
-            n.content.includes(this.filterValue);
-    });
-
+      // filter notes
+      this.filteredNotes = this.notes.filter(n => {
+        return n.title.includes(this.filterValue) ||
+              n.content.includes(this.filterValue);
+      });
     });
   }
 }

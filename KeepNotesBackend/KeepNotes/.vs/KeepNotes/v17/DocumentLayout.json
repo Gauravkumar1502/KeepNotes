@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|d:\\e\\keepnotes\\keepnotesbackend\\keepnotes\\keepnotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|solutionrelative:keepnotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|d:\\e\\keepnotes\\keepnotesbackend\\keepnotes\\keepnotes\\migrations\\notescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|solutionrelative:keepnotes\\migrations\\notescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|d:\\e\\keepnotes\\keepnotesbackend\\keepnotes\\keepnotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|solutionrelative:keepnotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|d:\\e\\keepnotes\\keepnotesbackend\\keepnotes\\keepnotes\\keepnotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3F0F1944-0812-4898-9D2D-CEEBA984E19A}|KeepNotes\\KeepNotes.csproj|solutionrelative:keepnotes\\keepnotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\appsettings.json",
+              "RelativeDocumentMoniker": "KeepNotes\\appsettings.json",
+              "ToolTip": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\appsettings.json",
+              "RelativeToolTip": "KeepNotes\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-07T20:05:53.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\Migrations\\NotesContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "KeepNotes\\Migrations\\NotesContextModelSnapshot.cs",
+              "ToolTip": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\Migrations\\NotesContextModelSnapshot.cs",
+              "RelativeToolTip": "KeepNotes\\Migrations\\NotesContextModelSnapshot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T20:05:30.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "KeepNotes\\Controllers\\NotesController.cs",
+              "ToolTip": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "KeepNotes\\Controllers\\NotesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:14:45.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KeepNotes.csproj",
+              "DocumentMoniker": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\KeepNotes.csproj",
+              "RelativeDocumentMoniker": "KeepNotes\\KeepNotes.csproj",
+              "ToolTip": "D:\\E\\KeepNotes\\KeepNotesBackend\\KeepNotes\\KeepNotes\\KeepNotes.csproj",
+              "RelativeToolTip": "KeepNotes\\KeepNotes.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T18:14:41.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

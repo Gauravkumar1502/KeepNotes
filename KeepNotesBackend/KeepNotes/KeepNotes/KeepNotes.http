@@ -1,0 +1,6 @@
+@KeepNotes_HostAddress = http://localhost:5117
+
+GET {{KeepNotes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
