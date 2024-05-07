@@ -1,0 +1,13 @@
+<div class="p-card" routerLink="/note/{{ note.id }}">
+    <div class="p-card-header">
+        <h2>{{ note.title | titlecase }}</h2>
+        <button type="button" pButton icon="pi pi-times" class="p-button-rounded p-button-danger"></button>
+    </div>
+    <p>{{ note.content }} </p>
+    <div class="footer">
+        <p>Created: {{ note.createdAt | date: 'd MMM, yyyy h:mm a' }}</p>
+        @if (note.updatedAt){
+            <p>Updated: {{ note.updatedAt | date: 'd MMM, yyyy h:mm a' }}</p>
+        }
+    </div>
+</div>

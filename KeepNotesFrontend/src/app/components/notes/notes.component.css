@@ -1,0 +1,13 @@
+.notes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.empty{
+    /* it is a grid child make it expand  so that it take all row */
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color-secondary);
+}

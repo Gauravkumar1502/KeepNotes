@@ -1,10 +1,5 @@
 <app-header></app-header>
 <main class="main">
-  <div class="notes">
-    @for (note of notes; track note.id) {
-      <app-note [note]="note"></app-note>
-    }
-  </div>
   <router-outlet />
 </main>
 <footer>
