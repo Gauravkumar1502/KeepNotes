@@ -1,5 +1,11 @@
 <div class="notes">
-    @for (note of notes; track note.id) {
+  <div>
+    <button pButton pRipple type="button" 
+    icon="pi pi-plus" routerLink="/note/new"
+    class="p-button-rounded p-button-raised p-button-sm" 
+    label="Add Note"></button>
+  </div>
+    @for (note of filteredNotes; track note.id) {
       <app-note [note]="note"></app-note>
     }@empty {
       <p class="empty">No notes found</p>

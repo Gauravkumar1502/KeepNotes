@@ -3,6 +3,10 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1rem;
     padding: 0.5rem;
+    div{
+        grid-column: 1 / -1;
+        justify-self: end;
+    }
 }
 .empty{
     /* it is a grid child make it expand  so that it take all row */

@@ -103,7 +103,6 @@ export class EditNoteComponent {
   }
 
   onCancel() {
-    alert('Form cancelled');
     this.router.navigate(['/notes']);
   }
 }

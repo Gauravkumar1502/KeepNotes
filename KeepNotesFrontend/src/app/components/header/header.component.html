@@ -10,7 +10,8 @@
             <li>
                 <p-iconField iconPosition="right">
                     <p-inputIcon styleClass="pi pi-search" />
-                    <input type="text" pInputText placeholder="Search" />
+                    <input type="text" pInputText #filterInput
+                    placeholder="Search" (input)="filterNotes(filterInput.value)" />
                 </p-iconField>
             </li>
             <li>
