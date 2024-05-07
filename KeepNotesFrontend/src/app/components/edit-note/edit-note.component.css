@@ -1,0 +1,49 @@
+:host{
+    height: 100%;
+}
+.card{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    .header{
+        input[type="text"]{
+            width: 100%;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 0;
+            border-bottom: 2px solid var(--surface-d);
+            background-color: transparent;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-transform: capitalize;
+        }
+        input:focus{
+            box-shadow: none;
+            border-bottom: 2px solid var(--primary-color);
+        }
+    }
+    .content{
+        textarea{
+            width: 100%;
+            height: 100%;
+            resize: none;
+            font-size: 1.1rem;
+            font-weight: 300;
+            word-spacing: 0.1rem;
+            text-align: justify;
+            background-color: transparent;
+        }
+    }
+    .footer{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

@@ -20,7 +20,7 @@ nav{
         display: flex;
         gap: 1rem;
     }
-    .logo{
+    .logo > a{
         display: flex;
         align-items: center;
         gap: 0.5rem;

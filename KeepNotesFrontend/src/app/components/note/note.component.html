@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="header">
+        <div>
+            <p-toast />
+            <p-confirmDialog />
+            <h2>{{ note.title | titlecase }}</h2>
+        </div>
+        <ul>
+            <li routerLink="/edit/{{ note.id }}">
+                <button pButton pRipple type="button" icon="pi pi-pencil" class="p-button-rounded p-button-text"></button>
+            </li>
+            <li (click)="deleteNote($event)">
+                <button pButton pRipple type="button" icon="pi pi-trash" class="p-button-rounded p-button-danger p-button-text"></button>
+            </li>
+        </ul>
+
+    </div>
+    <div class="content">
+        <p> {{ note.content }} </p>
+    </div>
+    <div class="footer">
+        <small>{{ note.createdAt | date: 'medium' }}</small>
+    </div>
+</div>

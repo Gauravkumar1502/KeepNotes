@@ -1,0 +1,26 @@
+<form class="card" [formGroup]="noteFormGroup" (ngSubmit)="onSubmit()">
+    <div class="header">
+        <input required type="text" id="title" pInputText formControlName="title" placeholder="Title" />
+    </div>
+    <div class="content">
+        <textarea 
+        required
+        rows="5" 
+        cols="30" 
+        pInputTextarea
+        placeholder="Write your note here..."
+        formControlName="content">
+    </textarea>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <button pButton pRipple type="submit" icon="pi pi-{{ (buttonLabel === 'Update') ? 'check' : 'plus' }}" class="p-button-primary p-button-rounded p-button-raised p-button-sm" [label]="buttonLabel"></button>
+            </li>
+            <li>
+                <button pButton pRipple type="button" icon="pi pi-times" class="p-button-secondary p-button-rounded p-button-raised p-button-sm" label="Cancel" (click)="onCancel()"></button>
+            </li>
+            <p-toast />
+        </ul>
+    </div>
+</form>

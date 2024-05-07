@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { Note } from '../../models/note';
 import { NotesService } from '../../services/notes.service';
 import { NoteCardComponent } from "../note-card/note-card.component";
@@ -12,13 +12,15 @@ import { NoteCardComponent } from "../note-card/note-card.component";
 })
 export class NotesComponent {
   notes: Note[] = [];
-  constructor(private noteService: NotesService) {}
+  
+  constructor(private noteService: NotesService) {
+  }
 
   ngOnInit(): void {
-    this.noteService.getNotes().subscribe({
+    console.log('ngOnInit');
+    this.noteService.getAll().subscribe({
       next: (notes) => {
         this.notes = notes;
-        console.log(this.notes);
       },
       error: (err) => {
         console.log(err);
